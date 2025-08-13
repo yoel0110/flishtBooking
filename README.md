@@ -1,21 +1,23 @@
-#1.2.12   LAB   Flight booking system: part 1
+# 1.2.12 LAB: Flight booking system - part 1
 
-#Level of difficulty
-##Medium
+## Level of difficulty  
+### Medium  
 
-#Objectives
-##Familiarize the student with:
+## Objectives  
+### Familiarize the student with:  
+- Modeling real-world entities using classes and objects  
 
-modelling real-world entities with classes and objects.
+## Scenario  
+Now that you're more familiar with classes and objects, let's imagine we're working on an airline flight booking system.  
 
-##Scenario
-Now that you're a little more familiar with classes and objects, let's pretend we're working on an airline flight booking system.
+Our system stores for each flight:  
+- An identification number  
+- The total capacity  
+- The number of reserved seats  
 
-Our systems save an identification number, the capacity and the number of seats reserved for all flight bookings.
+Our first task will be to print a status report showing the percentage of capacity filled.  
 
-Our first job will be to print out a status report about the percentage of capacity filled.
+The report should follow this format:  
+`"Flight [id]: [reserved]/[capacity] ([percentage]%) seats taken"`  
 
-The report should be in the form: "Flight [id] : [reserved]/[capacity] ([percentage]%) seats taken"
-
-For now, let's not limit the number of reserved seats. We'll work on that later.
-
+For now, we won't limit the number of reserved seats. We'll work on that later.  

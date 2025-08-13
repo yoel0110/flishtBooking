@@ -1,0 +1,10 @@
+{
+  "files.associations": {
+    "*.dbclient-js": "javascript",
+    "*.embeddedhtml": "html",
+    "*.html": "html",
+    "*.lua": "lua",
+    "xstring": "cpp",
+    "xmemory": "cpp"
+  }
+}
